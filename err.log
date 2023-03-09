@@ -1,0 +1,4 @@
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+Tue, 27 Dec 2022 01:44:40 GMT tedious deprecated The default value for `options.encrypt` will change from `false` to `true`. Please pass `false` explicitly if you want to retain current behaviour. at node_modules\mssql\lib\tedious.js:230:23

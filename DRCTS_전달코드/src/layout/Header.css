@@ -1,0 +1,29 @@
+﻿.menu {
+    background-color: #343a40;
+    height: calc( 3.5rem * var(--scaleY) );
+}
+
+.menu-item {
+    display: inline-block;
+    color: white;
+    font-size: calc( 1rem * var(--scaleX) );
+    line-height: calc( 3.5rem * var(--scaleY) );
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #495057;
+}
+
+.menu-item:active, .menu-item.active {
+    background-color: #1862ab;
+}
+
+img {
+		width: calc( 2rem * var(--scaleX) );
+		height: calc( 2rem * var(--scaleY) );
+}
